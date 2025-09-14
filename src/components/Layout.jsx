@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Layout() {
     return (
         <div>
-            <h1>my portt smoke weed</h1>
+            <h1>nate dawgg smoke weed</h1>
             <nav>
                 <Link to="/">Home</Link> |{" "}
                 <Link to="/about">About</Link> |{" "}
