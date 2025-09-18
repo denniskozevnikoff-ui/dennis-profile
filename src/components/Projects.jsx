@@ -1,4 +1,4 @@
-import fruit from '../assets/fruit.jpg';      // you can replace these with real screenshots later
+import fruit from '../assets/fruit.jpg';      
 import cut from '../assets/cut.jpg';
 import ai2 from '../assets/ai2.jpg';
 
