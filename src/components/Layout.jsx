@@ -6,9 +6,9 @@ export default function Layout() {
             <h1>Personal Portfolio Page. Created in React</h1>
             <nav>
                 <Link to="/">Home</Link> |{" "}
-                <Link to="/about">About Me</Link> |{" "}
+                <Link to="/aboutme">About Me</Link> |{" "}
                 <Link to="/projects">Projects</Link> |{" "}
-                <Link to="/">Education</Link> |{" "}
+                <Link to="/education">Education</Link> |{" "}
                 <Link to="/services">Services</Link> |{" "}
                 <Link to="/contact">Contact</Link> |{" "}
             </nav>
