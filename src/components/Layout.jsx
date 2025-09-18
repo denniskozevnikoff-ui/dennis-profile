@@ -7,7 +7,7 @@ export default function Layout() {
             <nav>
                 <Link to="/">Home</Link> |{" "}
                 <Link to="/about">About Me</Link> |{" "}
-                <Link to="/contact">Projects</Link> |{" "}
+                <Link to="/projects">Projects</Link> |{" "}
                 <Link to="/">Education</Link> |{" "}
                 <Link to="/services">Services</Link> |{" "}
                 <Link to="/contact">Contact</Link> |{" "}
