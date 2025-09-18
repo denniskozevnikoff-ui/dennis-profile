@@ -12,16 +12,18 @@ export default function Contact() {
     message: ''
   });
 
+  // keep form values updated
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+  // when form is submitted
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
 
-    // after submit, redirect to home
+    // kick user back to home after submit
     navigate('/');
   };
 
@@ -64,6 +66,7 @@ export default function Contact() {
         <p>Location: Your City, Your Country</p>
       </div>
 
+      {/* the actual form */}
       <form onSubmit={handleSubmit} style={formStyle}>
         <input
           style={inputStyle}

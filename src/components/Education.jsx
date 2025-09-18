@@ -31,7 +31,7 @@ export default function Education() {
     <div style={containerStyle}>
       <div style={cardStyle}>
         <h2>Centennial College</h2>
-        <h3>Artificial Intelligence Program</h3>
+        <h3>Artificial Intelligence Diploma Program</h3>
         <div style={infoStyle}>
           <div><strong>Duration:</strong> 2024 – Current</div>
           <div><strong>GPA:</strong> 4.2</div>

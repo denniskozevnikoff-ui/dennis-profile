@@ -3,7 +3,7 @@ export default function AboutMe() {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    padding: '60px 20px',
+    padding: '40px 0',
     background: 'transparent',
     color: 'white',
     textAlign: 'center',
@@ -13,7 +13,7 @@ export default function AboutMe() {
   };
 
   const headingStyle = {
-    fontSize: '2rem',
+    fontSize: '1.5rem', // adjusted to match Education
     marginBottom: '20px'
   };
 
@@ -22,9 +22,25 @@ export default function AboutMe() {
     color: '#ccc'
   };
 
+  const linkStyle = {
+    marginTop: '20px',
+    fontSize: '1.2rem',
+    color: '#1e90ff',
+    textDecoration: 'underline',
+    cursor: 'pointer'
+  };
+
   return (
     <div style={containerStyle}>
       <h2 style={headingStyle}>About Me</h2>
+      <a 
+        href="/resume.pdf" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        style={linkStyle}
+      >
+        View Resume
+      </a>
       <p style={textStyle}>
         I'm currently a college student at Centennial College, pursuing a program in Artificial Intelligence. 
         With over 5 years of coding experience, I’ve developed strong skills in both backend and frontend development, 
